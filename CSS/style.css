@@ -90,3 +90,38 @@ a {
     color: #e5e7eb;
 }
 /* end home */
+/* start info */
+.info .container {
+    padding: 100px 0;
+}
+.info h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.info .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.info .cards .card {
+    flex: 1 250px;
+    text-align: center;
+}
+.info .cards .card img {
+    max-width: 250px;
+    border: 3px solid #3382f6;
+    border-radius: 16px;
+}
+.info .cards .card h3 {
+    color: #3382f6;
+    margin: 8px 0;
+}
+.info .cards .card p {
+    max-width: 100%;
+    font-size: 14px;
+    color: #666;
+}
+/* end info */

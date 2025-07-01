@@ -125,3 +125,24 @@ a {
     color: #666;
 }
 /* end info */
+/* start quote */
+.quote {
+    background-color: #e5e7eb;
+    padding: 100px 0;
+}
+.quote blockquote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+.quote blockquote + p {
+    text-align: right;
+    font-size: 18px;
+}
+.quote blockquote + p,
+.quote blockquote {
+    max-width: 1000px;
+    margin: 5px auto;
+}
+/* end quote */

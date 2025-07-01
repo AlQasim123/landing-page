@@ -91,7 +91,7 @@ a {
 }
 /* end home */
 /* start info */
-.info .container {
+.info {
     padding: 100px 0;
 }
 .info h2 {
@@ -104,14 +104,15 @@ a {
 .info .cards {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
     gap: 30px;
 }
 .info .cards .card {
-    flex: 1 250px;
+    width: 200px;
     text-align: center;
 }
 .info .cards .card img {
-    max-width: 250px;
+    width: 200px;
     border: 3px solid #3382f6;
     border-radius: 16px;
 }
@@ -120,7 +121,6 @@ a {
     margin: 8px 0;
 }
 .info .cards .card p {
-    max-width: 100%;
     font-size: 14px;
     color: #666;
 }
